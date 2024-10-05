@@ -1,0 +1,57 @@
+/* Write your CSS here */
+
+.image-container {
+  height: 160px;
+  width: 80%;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image {
+  height: 70px;
+  width: 70px;
+  margin-right: 10px;
+}
+
+.image-list-container {
+  height: 150px;
+  width: 300px;
+  border: 1px solid;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.balanceImgCard {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+
+.incomeImgCard {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+
+.expenseImgCard {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
+
+.yourText {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.rupees {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #1e293b;
+}
